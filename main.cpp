@@ -7,9 +7,14 @@ int main()
     std::cout << "Variable :" << std::endl;
     variable2 = 3000;
     std::cout << "Variable :" << std::endl;
+    {
+        double variable { -555.9 };
+        std::cout << variable << std::endl;
+    }
     
     return EXIT_SUCCESS;
 }
+
 
 
 
