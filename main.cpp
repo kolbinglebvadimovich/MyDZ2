@@ -3,14 +3,14 @@
 int main()
 
 {
-    int variable1{ 2000 }; //Создание и инциализация переменной
-    variable2 = 3000;
+    int variable { 2000 }; 
     std::cout << "Введите число" << std::endl;
-    std::cin >> "Variable :" >> std::endl;
-    std::cout << "Variable :" << std::endl;
+    std::cin >> "variable" >> std::endl;
+    std::cout << "variable" << std::endl;
     
     return EXIT_SUCCESS;
 }
+
 
 
 
